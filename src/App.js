@@ -3,11 +3,11 @@ import Palette from './Palette';
 import seedColors from './seedColors';
 
 class App extends Component {
-  state = {  } 
+  
   render() { 
     return (
       <div>
-        <Palette {...seedColors[4]}/>
+        <Palette {...seedColors[3]}/>
       </div>
     );
   }
